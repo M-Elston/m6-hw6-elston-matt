@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/paisley.png");
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main, nav {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+
+header, footer {
+    background-color: white;
+}
+
+header {
+    background-color: white;
+    border-bottom: 3px solid #9D1411;
+    font-family: calibri;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+h1 {
+    margin-right: auto;
+    padding: 10px;
+    color: white;
+    background-color: #9D1411;
+    font-family: Elephant;
+}
+
+.link {
+    margin: 0 4px;
+    color: #9D1411;
+    font-family: Calibri;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    padding: 40px;
+}
+
+section {
+    background-color: white;
+    margin-right: auto;
+    padding: 10px;
+    width: 60%;
+}
+
+h2 {
+    color: #9D1411;
+    font-family: 'Elephant'
+}
+
+.headshot {
+    float: left;
+    margin: 0 20px 10px 0;
+    width: 200px;
+    box-shadow: 3px 3px 3px black;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 20%;
+    padding: 5px;
+    max-height: 70px;
+}
+
+.connect {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #9D1411;
+
+}
+
+.con-links {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.con-links img {
+    max-width: 40px;
+    box-sizing: 3px 3px 3px black;
+}
+
+p {
+    margin: 15px 0;
+    line-height: 140%;
+}
+
+
+footer {
+    border-top: 5px solid #9d1411;
+    background-color: white;
+    padding: 0 12px;
+    width: 100%;
+    text-align: center;
+
+}
+
+footer p {
+    color: #9d1411;
+    font-size: 16px;
+    font-family: Calibri;
+}
